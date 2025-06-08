@@ -32,7 +32,7 @@ if st.button('Dự đoán điểm số'):
     # Tạo mảng đầu vào
     features = np.array([[study_hours, online_courses, assignment_completion,
                           exam_score, attendance, edtech_use,
-                          stress_level, social_media, sleep_hours]])
+                          stress_medium, stress_low, social_media, sleep_hours]])
     
     # Dự đoán
     prediction = model.predict(features)[0]
