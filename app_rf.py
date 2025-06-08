@@ -6,7 +6,7 @@ import joblib
 model = joblib.load('trained_rf_model.joblib')
 
 # Giao diện người dùng
-st.title('🎓 Dự đoán điểm số sinh viên')
+st.title('🎓 Dự đoán điểm số sinh viên, sử dụng Random Forest')
 
 st.markdown("""
 Nhập các thông số học tập của sinh viên để dự đoán điểm số.
