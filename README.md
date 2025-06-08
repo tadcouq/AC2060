@@ -1,6 +1,6 @@
 # AC2060
  Nhập môn trí tuệ nhân tạo - 20242
- ## Mã lớp 158786
+## Mã lớp 158786
 GVHD: Nguyễn Việt Tùng
 
 ## Thành viên:
@@ -9,3 +9,7 @@ GVHD: Nguyễn Việt Tùng
 3. Nguyễn Ngọc Hải 20231588
 4. Trịnh Gia Hưng 20239646
 5. Lương Anh Việt 20231652
+
+## Demo
+[Lineear Regression](https://ac2060-lr.streamlit.app/) <br>
+[Random Forest Regressor](https://ac2060-rf.streamlit.app/)
