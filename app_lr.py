@@ -19,7 +19,11 @@ assignment_completion = st.slider('Assignment Completion Rate (%)', 0, 100, 80)
 exam_score = st.slider('Exam Score (%)', 0, 100, 75)
 attendance = st.slider('Attendance Rate (%)', 0, 100, 90)
 edtech_use = st.selectbox('Use of Educational Tech', [0, 1])  # 0 = No, 1 = Yes
-stress_level = st.slider('Stress Level (1–10)', 1, 10, 5)
+
+stress_category = st.selectbox('Stress Level (High/Medium/Low)', ['High', 'Medium', 'Low'])
+stress_medium = 1 if stress_category == 'Medium' else 0
+stress_low = 1 if stress_category == 'Low' else 0
+
 social_media = st.slider('Time on Social Media (hrs/week)', 0, 50, 10)
 sleep_hours = st.slider('Sleep Hours per Night', 0, 12, 7)
 
