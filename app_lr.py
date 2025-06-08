@@ -58,5 +58,6 @@ if st.button('Dự đoán điểm số'):
     - Dữ liệu được sử dụng từ [đây](https://www.kaggle.com/datasets/adilshamim8/student-performance-and-learning-style).
     - Mô hình được huấn luyện và lưu trữ trong file `trained_lr_model.joblib`.
     - Ứng dụng được xây dựng bằng Streamlit.
-    (c) 2025 https://tdcq.me/
+    - Repository: [GitHub](https://github.com/tadcouq/AC2060)
+    # (c) 2025 https://tdcq.me/
     """)   
